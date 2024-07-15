@@ -9,3 +9,6 @@ RUN chmod 755 /home/calcProject-0.2-jar-with-dependencies.jar
 EXPOSE 9080
 
 CMD ["java","-jar","/home/calcProject-0.2-jar-with-dependencies.jar","2","4","2"] 
+
+# Keep container running (optional)
+CMD ["tail", "-f", "/dev/null"]

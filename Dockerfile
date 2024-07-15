@@ -1,6 +1,6 @@
 #Dockerfile for running java application 
 
-FROM adoptopenjdk:11-jdk-hotspot 
+FROM adoptopenjdk:11-jdk-hotspot
 
 COPY calcProject-0.0.1-SNAPSHOT-jar-with-dependencies.jar /home/calcProject-0.2-jar-with-dependencies.jar 
 
